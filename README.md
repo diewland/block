@@ -1,1 +1,1 @@
-<a href='http://www.diewland.com/block/'>Live</a>
+<a href='https://diewland.github.io/block/'>Live</a> . ..:octopus:
