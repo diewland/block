@@ -28,7 +28,7 @@ function countdown(){
         // reset
         SIZE  = 3;
         SCORE = 0;
-        TIME  = 60;
+        TIME  = 30;
         play_flag = false;
         document.getElementById('score').innerHTML = SCORE;
         document.getElementById('time').innerHTML = TIME;
