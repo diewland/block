@@ -1,7 +1,7 @@
 // config
 var SIZE  = 3;
 var SCORE = 0;
-var TIME  = 60;
+var TIME  = 30;
 var RIDX  = 0;
 
 // game variables

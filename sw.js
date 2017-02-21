@@ -1,4 +1,4 @@
-var cacheName = 'block-v1.2';
+var cacheName = 'block-v1.3';
 var filesToCache = [
   './',
   './index.html',
