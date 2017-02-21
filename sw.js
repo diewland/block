@@ -1,7 +1,8 @@
-var cacheName = 'block-v1.0';
+var cacheName = 'block-v1.1';
 var filesToCache = [
   './',
   './index.html',
+  './manifest.json',
   './app.css',
   './app.js',
 ];
