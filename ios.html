@@ -16,16 +16,36 @@
         <meta name="msapplication-TileColor" content="#2F3BA2">
 
         <style type='text/css'>
-          .splash {
+          .outer {
+            display: table;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+          }
+          .middle {
+            display: table-cell;
+            vertical-align: middle;
+          }
+          .inner {
+            margin-left: auto;
+            margin-right: auto; 
             text-align: center;
-            margin-top: 30%;
+          }
+          .inner img {
+            margin-bottom: 10px;
           }
         </style>
     </head>
     <body>
-      <div class='splash'>
-        <img src='./app.png' />
-        <h1><a href='googlechromes://diewland.github.io/block/index.html'>Enter App</a></h1>
+      <div class='outer'>
+        <div class='middle'>
+          <div class='inner'>
+            <a name='block' href='googlechromes://diewland.github.io/block/index.html'>
+              <img src='./app.png' />
+              <h1>Enter App</h1>
+            </a>
+          </div>
+        </div>
       </div>
     </body>
 </html>
